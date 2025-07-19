@@ -1,6 +1,6 @@
 /* =====================================
-Template Name: 	Medikit.
-Author Name: Naimur Rahman
+Template Name: 	MND Medical Template.
+Author Name: SGT ADU EMMANUEL
 Website: http://wpthemesgrid.com/
 Description: Medikit - Medical & Doctor HTML Template.
 Version:	1.1
@@ -22,7 +22,8 @@ Version:	1.1
 * Call to Action CSS
 * Portfolio CSS
 	+ Portfolio Single CSS
-* Services CSS
+* Services CS.
+S
 * Testimonials CSS
 * Departments CSS
 * Pricing Table CSS
@@ -836,7 +837,7 @@ body{
 	padding:120px 0;
 }
 .fun-facts{
-	background:url('https://via.placeholder.com/1600x350');
+	background:url('./IMG_0565.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -942,7 +943,7 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('https://via.placeholder.com/2000x1200');
+	background-image:url('./IMG_0548.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -1002,7 +1003,7 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background-image:url('https://via.placeholder.com/2560x1200');
+	background-image:url('./IMG_1081.jpg');
 	background-size:cover;
 	background-position:center;
 	position:relative;
@@ -1308,7 +1309,7 @@ body{
   font-size: 32px;
 }
 .service-details-inner-left {
-  background-image: url("https://via.placeholder.com/1920x1200");
+  background-image: url("./IMG_0537.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1344,7 +1345,7 @@ body{
 	Start Testimonials CSS
 ===============================*/
 .testimonials{
-	background-image:url('https://via.placeholder.com/1920x1000');
+	background-image:url('./IMG_0693.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -1647,7 +1648,7 @@ body{
 	Start Clients CSS
 ==========================*/
 .clients{
-	background-image:url('https://via.placeholder.com/1600x280');
+	background-image:url('./IMG_1205.jpg');
 	background-size:cover;
 	background-position:center;
 	padding:100px 0px;
@@ -1671,7 +1672,7 @@ body{
 	Start Team CSS
 ======================*/ 
 .team{
-	background-image:url('https://via.placeholder.com/1920x1000');
+	background-image:url('./IMG_1113.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -2305,7 +2306,7 @@ body{
 }
 /* Blockqoute */
 .news-single blockquote {
-	background-image: url('img/blockqoute-bg.jpg');
+	background-image: url('./IMG_1005.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2788,7 +2789,7 @@ body{
 	overflow:hidden;
 }
 .login .login-left{
-	background-image: url(https://via.placeholder.com/1920x1200);
+	background-image: url(./IMG_0559.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2943,7 +2944,7 @@ body{
 	overflow:hidden;
 }
 .register .register-left{
-	background-image: url(https://via.placeholder.com/1920x1200);
+	background-image: url(./IMG_0548.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3634,7 +3635,7 @@ body{
 .about-image {
   width: 100%;
   height: 100%;
-  background-image: url(https://via.placeholder.com/900x750);
+  background-image: url(./IMG_0559.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3803,7 +3804,7 @@ body{
 .our-mission-image {
   width: 100%;
   height: 100%;
-  background-image: url(https://via.placeholder.com/900x750);
+  background-image: url(./IMG_1174.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,0 +1,76 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.site-header h1 {
+  font-size: 2.8rem;
+  color: #2c3e50;
+}
+
+.site-header p {
+  font-size: 1.1rem;
+  color: #6c7a89;
+}
+
+/* Gallery Grid */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Department Card */
+.department-card {
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.department-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(246, 3, 3, 0.942);
+}
+
+/* Image */
+.department-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: 70%;
+}
+
+/* Text Info */
+.info {
+  padding: 20px;
+}
+
+.info h2 {
+  font-size: 1.4rem;
+  color: #34495e;
+  margin-bottom: 8px;
+}
+
+.info p {
+  font-size: 0.95rem;
+  color: #666;
+}
