@@ -1648,23 +1648,35 @@ body{
 /*========================
 	Start Clients CSS
 ==========================*/
-.clients{
-	background-image:url('./IMG_1205.jpg');
-	background-size:cover;
-	background-position:center;
-	padding:100px 0px;
-	position:relative;
+.clients {
+	background-image: url('IMG_0532.jpg'); /* Update path correctly */
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	position: relative;
 }
-.clients .single-clients{
-	
+
+.clients .single-clients {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 .clients .single-clients img {
+	max-width: 250px; /* Keeps logos neat and not stretched */
 	width: 100%;
+	height: auto;
+	object-fit: contain;
 	cursor: pointer;
-	text-align: center;
-	float: none;
-	padding: 0 35px;
+	transition: transform 0.3s ease;
 }
+
+.clients .single-clients img:hover {
+	transform: scale(1.05);
+}
+
+
 /*========================
 	End Clients CSS
 ==========================*/
