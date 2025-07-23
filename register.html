@@ -119,7 +119,7 @@
 							<!-- Top Contact -->
 							<ul class="top-contact">
 								<li><i class="fa fa-phone"></i>030 293 9939 / 024 486 8935</li>
-								<li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">admin@mndmedicalcentre.comm</a></li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">admin@mndmedicalcentre.com</a></li>
 							</ul>
 							<!-- End Top Contact -->
 						</div>
@@ -284,7 +284,7 @@
 
 										<div class="col-lg-6">
 											<div class="form-group">
-												<input type="email" name="email" placeholder="Phone" required="">
+												<input type="tel" name="Phone number" placeholder="Call Number" required="">
 											</div>
 										</div>
 
@@ -365,10 +365,10 @@
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-12">
 										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Cases</a></li>
+											<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
+											<li><a href="about.html"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
+											<li><a href="service.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
+											<li><a href="Gallery.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Gallery</a></li>
 											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	
 										</ul>
 									</div>
@@ -376,11 +376,11 @@
 
 									<div class="col-lg-6 col-md-6 col-12">
 										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consulting</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
+											<li><a href="doctors.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Consulting</a></li>
+											<li><a href="pricing.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>
+											<li><a href="testimonials.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
+											<li><a href="faq.html"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
+											<li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
 										</ul>
 									</div>
 								</div>
@@ -403,11 +403,25 @@
 								<h2>Newsletter</h2>
 								<p>Stay informed with our newsletter. Receive timely updates, 
 									news, and insights directly in your inbox. Subscribe now</p>
-								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
-										onblur="this.placeholder = 'Your email address'" required="" type="email">
-									<button class="button"><i class="icofont icofont-paper-plane"></i></button>
-								</form>
+								<form action="https://formsubmit.co/admin@mndmedicalcentre.com" method="POST" class="newsletter-inner">
+ 				 				<input 
+   					type="email" 
+    				name="email" 
+    				placeholder="Email Address" 
+    				class="common-input"
+    				onfocus="this.placeholder = ''"
+   					onblur="this.placeholder = 'Your email address'" 
+    				required>
+
+ 						 <!-- Optional: disable CAPTCHA and redirect after submission -->
+  							<input type="hidden" name="_captcha" value="false">
+  						<input type="hidden" name="_next" value="https://mndmedicalcentre.com/thank-you.html">
+
+  						<button class="button" type="submit">
+    					<i class="icofont icofont-paper-plane"></i>
+  						</button>
+						</form>
+
 							</div>
 						</div>
 					</div>
