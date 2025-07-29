@@ -22,8 +22,7 @@ Version:	1.1
 * Call to Action CSS
 * Portfolio CSS
 	+ Portfolio Single CSS
-* Services CS.
-S
+* Services CSS.
 * Testimonials CSS
 * Departments CSS
 * Pricing Table CSS
@@ -944,7 +943,7 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('./IMG_0548.jpg');
+	background-image:url('./Ma1.jpeg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -1004,7 +1003,7 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background-image:url('./IMG_1081.jpg');
+	background-image:url('./Boss3.jpeg');
 	background-size:cover;
 	background-position:center;
 	position:relative;
@@ -1310,7 +1309,7 @@ body{
   font-size: 32px;
 }
 .service-details-inner-left {
-  background-image: url("./IMG_0537.jpg");
+  background-image: url("./Boss5.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1664,7 +1663,7 @@ body{
 }
 
 .clients .single-clients img {
-	max-width: 250px; /* Keeps logos neat and not stretched */
+	max-width: 450px; /* Keeps logos neat and not stretched */
 	width: 100%;
 	height: auto;
 	object-fit: contain;
@@ -3379,9 +3378,16 @@ body{
 	margin-top:5px;
 }
 /* Google Map */
-.contact-us #myMap {
-	height: 100%;
-	width: 100%;
+.map-container {
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+
 }
 /*=========================
    End Contact Us CSS
@@ -3817,7 +3823,7 @@ body{
 .our-mission-image {
   width: 100%;
   height: 100%;
-  background-image: url(./IMG_1174.jpg);
+  background-image: url(./Boss2.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
