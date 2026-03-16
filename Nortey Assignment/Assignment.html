@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #2c3e50;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Student image */
+        .student-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2c3e50;
+            margin-right: 15px;
+        }
+
+        /* Header section */
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+        }
+
+        .header-text p {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Content */
+        .container {
+            padding: 0 20px 20px 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eaeaea;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #f4f4f4;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <!-- Header with Image -->
+    <div class="header">
+        <img src="Student.png" alt="Student Picture" class="student-pic">
+
+        <div class="header-text">
+            <h1>Student Information</h1>
+            <p>Student Profile</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Student Data Table</h2>
+
+        <table>
+            <tr>
+                <th>Student Name</th>
+                <th>Class</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Ama Mensah</td>
+                <td>Form 1</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Kofi Boateng</td>
+                <td>Form 2</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Yaw Asante</td>
+                <td>Form 3</td>
+                <td>A-</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Student Information System</p>
+    </footer>
+
+</body>
+</html>
